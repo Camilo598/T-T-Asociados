@@ -5,22 +5,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/*Chat boot*/
-.chat_icon{
-	position: fixed;
-	bottom: 0;
-	right: 30px;
-	z-index: 1000;
-	padding: 0;
-	font-size: 80px;
-	color: #009688;
-	cursor: pointer;
-}
-
-.chat_icon a{
-    text-decoration: none;
-}
-
 /*Pantalla principal*/
 
 ::-webkit-scrollbar {
@@ -81,31 +65,22 @@
   color: #007bff;
 }
 .banner{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url(../Image/pexels-roxanne-minnish-4514045.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.658), #15476C), url(../Imagenes/pexels-sora-shimazaki-5668481.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
     clip-path: circle(180vh at 50% -80vh);
 }
-button {
-    color: white;
-    padding: 10px 25px;
-    background: transparent;
-    border: 1px solid white;
-    border-radius: 20px;
-    outline: none;
-    cursor: pointer;
-}
                                     
 .banner-text {
     text-align: center;
     color: #fff;
-    padding-top: 200px;
+    padding-top: 235px;
 }
                                     
 .banner-text h1 {
-    font-size: 130px;
+    font-size: 100px;
     font-family: 'Kaushan Script', cursive;
 }
                                     
@@ -150,7 +125,7 @@ button {
     color: rgb(14, 12, 12);
 }
 .logo{
-    width: 130px;
+    width: 109px;
     cursor: pointer;
 }
 .about{
