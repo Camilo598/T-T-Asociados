@@ -135,3 +135,41 @@ nav ul a {
 }
 /**Banner principal fin**/
 
+.color-acento{ 
+    color:#154972; 
+}
+
+.color-acento1{ 
+    color:#8F621A; 
+}
+
+#somos-proya .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#somos-proya .texto{
+    width: 50%;
+    max-width: 500px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#somos-proya h2{
+    margin-top: 0px;
+}
+
+#somos-proya .img-container{
+    background-image: url(../Imagenes/pexels-victoria-akvarel-5649093-removebg-preview.png);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px; 
+}
+
+#somos-proya .container{
+    text-align: center;
+    padding: 0px 0px;
+}
