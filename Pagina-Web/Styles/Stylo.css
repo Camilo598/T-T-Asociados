@@ -143,33 +143,27 @@ nav ul a {
     color:#8F621A; 
 }
 
-#somos-proya .container{
+.somos-proya .container{
     display: flex;
     justify-content: space-evenly;
 }
 
-#somos-proya .texto{
+.somos-proya .texto{
     width: 50%;
-    max-width: 500px;
-    padding-left: 5px;
-    display: flex;
+    text-align: center;
+    display:flex;
     flex-direction: column;
     justify-content: center;
 }
 
-#somos-proya h2{
+.somos-proya h1{
     margin-top: 0px;
 }
 
-#somos-proya .img-container{
+.somos-proya .img-container{
     background-image: url(../Imagenes/pexels-victoria-akvarel-5649093-removebg-preview.png);
     background-size: cover;
     background-position: center center;
-    height: 500px;
+    height: 600px;
     width: 400px; 
-}
-
-#somos-proya .container{
-    text-align: center;
-    padding: 0px 0px;
 }
